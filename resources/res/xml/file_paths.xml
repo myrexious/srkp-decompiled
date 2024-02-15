@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path name="root" path="."/>
+    <external-files-path name="documentsPkwkk" path="Documents/pkwkk/"/>
+    <external-files-path name="documentsPkwkp" path="Documents/pkwkp/"/>
+    <external-files-path name="images" path="Pictures"/>
+    <external-files-path name="camera_image" path="Pictures/"/>
+    <external-files-path name="external_files" path="."/>
+    <external-files-path name="my_images" path="/"/>
+</paths>

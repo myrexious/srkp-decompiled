@@ -1,0 +1,16 @@
+{
+  "ia": "Jumlah Pemilih dalam Daftar Pemilih Tetap Luar Negeri (DPTLN) (Terdapat dalam Model A-Daftar Pemilih PPLN)",
+  "ib1": "Jumlah pengguna hak pilih dalam Daftar Pemilih Tetap Luar Negeri (DPTLN)",
+  "ib2": "Jumlah pengguna hak pilih dalam Daftar Pemilih Tambahan Luar Negeri (DPTbLN)",
+  "ib3": "Jumlah pengguna hak pilih dalam Daftar Pemilih Khusus Luar Negeri (DPKLN)",
+  "ib4": "Jumlah Pengguna Hak Pilih (B.1 + B.2 + B.3)",
+  "ii1": "Jumlah surat suara yang diterima, termasuk surat suara cadangan 2% dari DPTLN",
+  "ii2": "Jumlah surat suara yang digunakan",
+  "ii3": "Jumlah surat suara yang dikembalikan oleh pemilih (karena rusak atau keliru coblos)",
+  "ii4": "Jumlah surat suara yang tidak digunakan/tidak terpakai, termasuk sisa surat suara cadangan",
+  "iii": "Jumlah seluruh Pemilih disabilitas yang menggunakan hak pilih",
+  "iv": "IV. DATA RINCIAN PEROLEHAN SUARA PASANGAN CALON PRESIDEN DAN WAKIL PRESIDEN",
+  "va": "JUMLAH SELURUH SUARA SAH",
+  "vb": "JUMLAH SUARA TIDAK SAH",
+  "vc": "JUMLAH SELURUH SUARA SAH DAN SUARA TIDAK SAH ( V.A + V.B )"
+}

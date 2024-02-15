@@ -1,0 +1,48 @@
+{
+  "name": "y_ocr-tiga-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 128,
+      "height": 128,
+      "fields": [
+        {
+          "name": "jumlah_suara_sah",
+          "coordinates": [
+            [2444, 632],
+            [2583, 632],
+            [2722, 632]
+          ]
+        },
+        {
+          "name": "jumlah_suara_tidak_sah",
+          "coordinates": [
+            [2444, 1053],
+            [2583, 1053],
+            [2722, 1053]
+          ]
+        },
+        {
+          "name": "jumlah_seluruh_suara",
+          "coordinates": [
+            [2444, 1494],
+            [2583, 1494],
+            [2722, 1494]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "DataSuara": {
+      "PredComb": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+      ]
+    }
+  }
+}

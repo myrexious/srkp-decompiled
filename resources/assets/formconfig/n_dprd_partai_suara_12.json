@@ -1,0 +1,151 @@
+{
+  "name": "n_dprd_partai_suara_12",
+  "checkerboard_size": 84,
+  "width": 2987,
+  "height": 4784,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 126,
+      "height": 114,
+      "fields": [
+        {
+          "name": "suara_partai",
+          "coordinates": [
+            [2448, 737],
+            [2586, 737],
+            [2725, 737]
+          ]
+        },
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2448, 1038],
+            [2586, 1038],
+            [2725, 1038]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2448, 1297],
+            [2586, 1297],
+            [2725, 1297]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2447, 1557],
+            [2586, 1557],
+            [2725, 1557]
+          ]
+        },
+        {
+          "name": "suara_paslon_4",
+          "coordinates": [
+            [2448, 1816],
+            [2586, 1816],
+            [2725, 1816]
+          ]
+        },
+        {
+          "name": "suara_paslon_5",
+          "coordinates": [
+            [2447, 2076],
+            [2586, 2076],
+            [2725, 2076]
+          ]
+        },
+        {
+          "name": "suara_paslon_6",
+          "coordinates": [
+            [2448, 2335],
+            [2586, 2335],
+            [2725, 2335]
+          ]
+        },
+        {
+          "name": "suara_paslon_7",
+          "coordinates": [
+            [2447, 2594],
+            [2586, 2594],
+            [2725, 2594]
+          ]
+        },
+        {
+          "name": "suara_paslon_8",
+          "coordinates": [
+            [2448, 2854],
+            [2586, 2854],
+            [2725, 2854]
+          ]
+        },
+        {
+          "name": "suara_paslon_9",
+          "coordinates": [
+            [2447, 3113],
+            [2586, 3113],
+            [2725, 3113]
+          ]
+        },
+        {
+          "name": "suara_paslon_10",
+          "coordinates": [
+            [2448, 3373],
+            [2586, 3373],
+            [2725, 3373]
+          ]
+        },
+        {
+          "name": "suara_paslon_11",
+          "coordinates": [
+            [2448, 3632],
+            [2586, 3632],
+            [2725, 3632]
+          ]
+        },
+        {
+          "name": "suara_paslon_12",
+          "coordinates": [
+            [2448, 3892],
+            [2586, 3892],
+            [2725, 3892]
+          ]
+        },
+        {
+          "name": "jumlah_suara",
+          "coordinates": [
+            [2448, 4139],
+            [2586, 4139],
+            [2725, 4139]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "DataSuara": {
+      "PredComb": [[1, 1, 1]]
+    },
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 1, 1],
+        [2, 2, 2],
+        [3, 3, 3],
+        [4, 4, 4],
+        [5, 5, 5],
+        [6, 6, 6],
+        [7, 7, 7],
+        [8, 8, 8],
+        [9, 9, 9],
+        [0, 0, 0],
+        [1, 1, 1],
+        [2, 2, 2]
+      ]
+    },
+    "JumlahSuara": {
+      "PredComb": [[1, 1, 1]]
+    }
+  }
+}

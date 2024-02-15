@@ -1,0 +1,49 @@
+{
+  "name": "n_ppwp_omr-tiga-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "omr",
+      "width": 128,
+      "height": 128,
+      "omr_bound_multiplier": 6,
+      "fields": [
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2444, 742],
+            [2583, 742],
+            [2722, 742]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2444, 1639],
+            [2583, 1639],
+            [2722, 1639]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2444, 2537],
+            [2583, 2537],
+            [2722, 2537]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 1, 1],
+        [2, 2, 2],
+        [3, 3, 3]
+      ]
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "name": "n_dpd_12",
+  "checkerboard_size": 84,
+  "width": 2987,
+  "height": 4784,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 123,
+      "height": 126,
+      "fields": [
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2448, 738],
+            [2586, 738],
+            [2725, 738]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2448, 1006],
+            [2586, 1006],
+            [2725, 1006]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2447, 1274],
+            [2586, 1274],
+            [2725, 1274]
+          ]
+        },
+        {
+          "name": "suara_paslon_4",
+          "coordinates": [
+            [2447, 1543],
+            [2586, 1543],
+            [2725, 1543]
+          ]
+        },
+        {
+          "name": "suara_paslon_5",
+          "coordinates": [
+            [2448, 1811],
+            [2586, 1811],
+            [2725, 1811]
+          ]
+        },
+        {
+          "name": "suara_paslon_6",
+          "coordinates": [
+            [2448, 2079],
+            [2586, 2079],
+            [2725, 2079]
+          ]
+        },
+        {
+          "name": "suara_paslon_7",
+          "coordinates": [
+            [2448, 2347],
+            [2586, 2347],
+            [2725, 2347]
+          ]
+        },
+        {
+          "name": "suara_paslon_8",
+          "coordinates": [
+            [2447, 2615],
+            [2586, 2615],
+            [2725, 2615]
+          ]
+        },
+        {
+          "name": "suara_paslon_9",
+          "coordinates": [
+            [2448, 2884],
+            [2586, 2884],
+            [2725, 2884]
+          ]
+        },
+        {
+          "name": "suara_paslon_10",
+          "coordinates": [
+            [2448, 3152],
+            [2586, 3152],
+            [2725, 3152]
+          ]
+        },
+        {
+          "name": "suara_paslon_11",
+          "coordinates": [
+            [2448, 3420],
+            [2586, 3420],
+            [2725, 3420]
+          ]
+        },
+        {
+          "name": "suara_paslon_12",
+          "coordinates": [
+            [2447, 3688],
+            [2586, 3688],
+            [2725, 3688]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "n_dpd_10",
+  "checkerboard_size": 84,
+  "width": 2987,
+  "height": 4784,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 123,
+      "height": 126,
+      "fields": [
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2447, 742],
+            [2586, 742],
+            [2725, 742]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2448, 1046],
+            [2586, 1046],
+            [2725, 1046]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2447, 1350],
+            [2586, 1350],
+            [2725, 1350]
+          ]
+        },
+        {
+          "name": "suara_paslon_4",
+          "coordinates": [
+            [2447, 1655],
+            [2586, 1655],
+            [2725, 1655]
+          ]
+        },
+        {
+          "name": "suara_paslon_5",
+          "coordinates": [
+            [2448, 1959],
+            [2586, 1959],
+            [2725, 1959]
+          ]
+        },
+        {
+          "name": "suara_paslon_6",
+          "coordinates": [
+            [2448, 2263],
+            [2586, 2263],
+            [2725, 2263]
+          ]
+        },
+        {
+          "name": "suara_paslon_7",
+          "coordinates": [
+            [2447, 2568],
+            [2586, 2568],
+            [2725, 2568]
+          ]
+        },
+        {
+          "name": "suara_paslon_8",
+          "coordinates": [
+            [2448, 2872],
+            [2586, 2872],
+            [2725, 2872]
+          ]
+        },
+        {
+          "name": "suara_paslon_9",
+          "coordinates": [
+            [2447, 3176],
+            [2586, 3176],
+            [2725, 3176]
+          ]
+        },
+        {
+          "name": "suara_paslon_10",
+          "coordinates": [
+            [2447, 3481],
+            [2586, 3481],
+            [2725, 3481]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+      ]
+    }
+  }
+}

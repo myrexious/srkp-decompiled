@@ -1,0 +1,55 @@
+{
+  "name": "n_ppwp_omr-lima-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "omr",
+      "width": 86,
+      "height": 86,
+      "omr_bound_multiplier": 9,
+      "fields": [
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2412, 762],
+            [2504, 763],
+            [2595, 763],
+            [2687, 762],
+            [2779, 762]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2412, 1660],
+            [2504, 1660],
+            [2595, 1660],
+            [2687, 1660],
+            [2779, 1660]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2412, 2558],
+            [2504, 2558],
+            [2595, 2558],
+            [2687, 2558],
+            [2779, 2558]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 2, 3, 4, 5],
+        [1, 2, 3, 4, 5],
+        [1, 2, 3, 4, 5]
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "I": {
+    "HasilPrediksi": [
+      [1, 2, 3, 4, 5, 6, 7, 8, 9], // I.A. Jumlah Pemilih DPT
+      [2, 3, 4, 5, 6, 7, 8, 9, 1], // I.B. 1. Jumlah Pengguna DPT
+      [3, 4, 5, 6, 7, 8, 9, 1, 2], // I.B. 2. Jumlah Pengguna DPTb
+      [4, 5, 6, 7, 8, 9, 1, 2, 3], // I.B. 3. Jumlah Pengguna DPK
+      [5, 6, 7, 8, 9, 1, 2, 3, 4]  // I.B. 4. Jumlah Pengguna Hak Pilih
+    ],
+    "ConfidenceScore": []
+  },
+  "II": {
+    "HasilPrediksi": [
+      [1, 2, 3], // II. 1. Jumlah surat suara diterima
+      [4, 5, 6], // II. 2. Jumlah surat suara dikembalikan
+      [7, 8, 9], // II. 3. Jumlah surat suara tidak digunakan
+      [8, 7, 6]  // II. 4. Jumlah surat suara digunakan
+    ],
+    "ConfidenceScore": []
+  },
+  "III": {
+    "HasilPrediksi": [
+      [0, 1, 2, 3, 4, 5, 6, 7, 8] // III. Jumlah pemilih disabilitas
+    ],
+    "ConfidenceScore": []
+  },
+  "error": ""
+}

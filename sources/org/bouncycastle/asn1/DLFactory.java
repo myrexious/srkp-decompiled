@@ -1,0 +1,18 @@
+package org.bouncycastle.asn1;
+
+/* loaded from: classes2.dex */
+public class DLFactory {
+    static final DLSequence EMPTY_SEQUENCE = new DLSequence();
+    static final DLSet EMPTY_SET = new DLSet();
+
+    DLFactory() {
+    }
+
+    public static DLSequence createSequence(ASN1EncodableVector aSN1EncodableVector) {
+        return aSN1EncodableVector.size() < 1 ? EMPTY_SEQUENCE : new DLSequence(aSN1EncodableVector);
+    }
+
+    public static DLSet createSet(ASN1EncodableVector aSN1EncodableVector) {
+        return aSN1EncodableVector.size() < 1 ? EMPTY_SET : new DLSet(aSN1EncodableVector);
+    }
+}

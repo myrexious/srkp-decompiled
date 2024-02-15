@@ -1,0 +1,19 @@
+{
+    "SuaraPaslon": {
+        "PredComb": [
+            [1, 1, 1], // Suara Paslon 1
+            [2, 2, 2], // Suara Paslon 2
+            [3, 3, 3],  // Suara Paslon 3
+            [4, 4, 4],  // Suara Paslon 4
+            [5, 5, 5],  // Suara Paslon 5
+            [6, 6, 6],  // Suara Paslon 6
+            [7, 7, 7],  // Suara Paslon 7
+            [8, 8, 8],  // Suara Paslon 8
+            [9, 9, 9],  // Suara Paslon 9
+            [1, 2, 3],  // Suara Paslon 10
+            [4, 5, 6],  // Suara Paslon 11
+            [7, 8, 9]  // Suara Paslon 12
+        ]
+    },
+    "error": ""
+}

@@ -1,0 +1,133 @@
+{
+  "name": "n_partai_suara_10_ocr-tiga-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 128,
+      "height": 130,
+      "fields": [
+        {
+          "name": "suara_partai",
+          "coordinates": [
+            [2444, 735],
+            [2583, 735],
+            [2722, 735]
+          ]
+        },
+        {
+          "name": "suara_paslon_1",
+          "coordinates": [
+            [2444, 1079],
+            [2583, 1079],
+            [2722, 1079]
+          ]
+        },
+        {
+          "name": "suara_paslon_2",
+          "coordinates": [
+            [2444, 1383],
+            [2583, 1383],
+            [2722, 1383]
+          ]
+        },
+        {
+          "name": "suara_paslon_3",
+          "coordinates": [
+            [2444, 1687],
+            [2583, 1687],
+            [2722, 1687]
+          ]
+        },
+        {
+          "name": "suara_paslon_4",
+          "coordinates": [
+            [2444, 1992],
+            [2583, 1992],
+            [2722, 1992]
+          ]
+        },
+        {
+          "name": "suara_paslon_5",
+          "coordinates": [
+            [2444, 2296],
+            [2583, 2296],
+            [2722, 2296]
+          ]
+        },
+        {
+          "name": "suara_paslon_6",
+          "coordinates": [
+            [2444, 2600],
+            [2583, 2600],
+            [2722, 2600]
+          ]
+        },
+        {
+          "name": "suara_paslon_7",
+          "coordinates": [
+            [2444, 2905],
+            [2583, 2905],
+            [2722, 2905]
+          ]
+        },
+        {
+          "name": "suara_paslon_8",
+          "coordinates": [
+            [2444, 3209],
+            [2583, 3209],
+            [2722, 3209]
+          ]
+        },
+        {
+          "name": "suara_paslon_9",
+          "coordinates": [
+            [2444, 3513],
+            [2583, 3513],
+            [2722, 3513]
+          ]
+        },
+        {
+          "name": "suara_paslon_10",
+          "coordinates": [
+            [2444, 3818],
+            [2583, 3818],
+            [2722, 3818]
+          ]
+        },
+        {
+          "name": "jumlah_suara",
+          "coordinates": [
+            [2444, 4119],
+            [2583, 4119],
+            [2722, 4119]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "DataSuara": {
+      "PredComb": [[1, 1, 1]]
+    },
+    "SuaraPaslon": {
+      "PredComb": [
+        [1, 1, 1],
+        [2, 2, 2],
+        [3, 3, 3],
+        [4, 4, 4],
+        [5, 5, 5],
+        [6, 6, 6],
+        [7, 7, 7],
+        [8, 8, 8],
+        [9, 9, 9],
+        [0, 0, 0]
+      ]
+    },
+    "JumlahSuara": {
+      "PredComb": [[1, 1, 1]]
+    }
+  }
+}

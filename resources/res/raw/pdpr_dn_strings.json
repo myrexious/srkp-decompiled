@@ -1,0 +1,16 @@
+{
+  "ia": "Jumlah Pemilih dalam Daftar Pemilih Tetap (DPT) ( Terdapat dalam Model A-Kabko Daftar Pemilih )",
+  "ib1": "Jumlah pengguna hak pilih dalam Daftar Pemilih Tetap (DPT)",
+  "ib2": "Jumlah pengguna hak pilih dalam Daftar Pemilih Tambahan (DPTb)",
+  "ib3": "Jumlah pengguna hak pilih dalam Daftar Pemilih Khusus (DPK)",
+  "ib4": "Jumlah Pengguna Hak Pilih (B.1 + B.2 + B.3)",
+  "ii1": "Jumlah surat suara yang diterima, termasuk surat suara cadangan 2% dari DPT",
+  "ii2": "Jumlah surat suara yang digunakan",
+  "ii3": "Jumlah surat suara yang dikembalikan oleh pemilik (karena rusak atau keliru coblos)",
+  "ii4": "Jumlah surat suara yang tidak digunakan/tidak terpakai, termasuk sisa surat suara cadangan",
+  "iii": "Jumlah seluruh Pemilih disabilitas yang menggunakan hak pilih",
+  "iv": "IV. DATA RINCIAN PEROLEHAN SUARA PARTAI POLITIK DAN SUARA CALON",
+  "va": "JUMLAH SELURUH SUARA SAH ( IV.1 + IV.2 + ... + IV.24 )",
+  "vb": "JUMLAH SUARA TIDAK SAH",
+  "vc": "JUMLAH SELURUH SUARA SAH DAN SUARA TIDAK SAH ( V.A + V.B )"
+}

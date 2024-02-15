@@ -1,0 +1,216 @@
+{
+  "name": "x_standar_ocr-tiga-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 117,
+      "height": 117,
+      "fields": [
+        {
+          "name": "pemilih_dpt_l",
+          "coordinates": [
+            [1573, 1934],
+            [1709, 1934],
+            [1845, 1934]
+          ]
+        },
+        {
+          "name": "pemilih_dpt_p",
+          "coordinates": [
+            [2016, 1934],
+            [2152, 1934],
+            [2288, 1934]
+          ]
+        },
+        {
+          "name": "pemilih_dpt_j",
+          "coordinates": [
+            [2459, 1934],
+            [2595, 1934],
+            [2731, 1934]
+          ]
+        },
+        {
+          "name": "pengguna_dpt_l",
+          "coordinates": [
+            [1573, 2188],
+            [1709, 2188],
+            [1845, 2188]
+          ]
+        },
+        {
+          "name": "pengguna_dpt_p",
+          "coordinates": [
+            [2016, 2188],
+            [2152, 2188],
+            [2288, 2188]
+          ]
+        },
+        {
+          "name": "pengguna_dpt_j",
+          "coordinates": [
+            [2459, 2188],
+            [2595, 2188],
+            [2731, 2188]
+          ]
+        },
+        {
+          "name": "pengguna_dptb_l",
+          "coordinates": [
+            [1573, 2324],
+            [1709, 2324],
+            [1845, 2324]
+          ]
+        },
+        {
+          "name": "pengguna_dptb_p",
+          "coordinates": [
+            [2016, 2324],
+            [2152, 2324],
+            [2288, 2324]
+          ]
+        },
+        {
+          "name": "pengguna_dptb_j",
+          "coordinates": [
+            [2459, 2324],
+            [2595, 2324],
+            [2731, 2324]
+          ]
+        },
+        {
+          "name": "pengguna_dpk_l",
+          "coordinates": [
+            [1573, 2460],
+            [1709, 2460],
+            [1845, 2460]
+          ]
+        },
+        {
+          "name": "pengguna_dpk_p",
+          "coordinates": [
+            [2016, 2460],
+            [2152, 2460],
+            [2288, 2460]
+          ]
+        },
+        {
+          "name": "pengguna_dpk_j",
+          "coordinates": [
+            [2459, 2460],
+            [2595, 2460],
+            [2731, 2460]
+          ]
+        },
+        {
+          "name": "pengguna_total_l",
+          "coordinates": [
+            [1573, 2595],
+            [1709, 2595],
+            [1845, 2595]
+          ]
+        },
+        {
+          "name": "pengguna_total_p",
+          "coordinates": [
+            [2016, 2595],
+            [2152, 2595],
+            [2288, 2595]
+          ]
+        },
+        {
+          "name": "pengguna_total_j",
+          "coordinates": [
+            [2459, 2595],
+            [2595, 2595],
+            [2731, 2595]
+          ]
+        },
+        {
+          "name": "surat_diterima",
+          "coordinates": [
+            [2459, 3027],
+            [2595, 3027],
+            [2731, 3027]
+          ]
+        },
+        {
+          "name": "surat_digunakan",
+          "coordinates": [
+            [2459, 3163],
+            [2595, 3163],
+            [2731, 3163]
+          ]
+        },
+        {
+          "name": "surat_dikembalikan",
+          "coordinates": [
+            [2459, 3299],
+            [2595, 3299],
+            [2731, 3299]
+          ]
+        },
+        {
+          "name": "surat_tidak_digunakan",
+          "coordinates": [
+            [2459, 3435],
+            [2595, 3435],
+            [2731, 3435]
+          ]
+        },
+        {
+          "name": "pemilih_disabilitas_l",
+          "coordinates": [
+            [1573, 3847],
+            [1709, 3848],
+            [1845, 3848]
+          ]
+        },
+        {
+          "name": "pemilih_disabilitas_p",
+          "coordinates": [
+            [2016, 3848],
+            [2152, 3848],
+            [2288, 3848]
+          ]
+        },
+        {
+          "name": "pemilih_disabilitas_j",
+          "coordinates": [
+            [2459, 3848],
+            [2595, 3848],
+            [2731, 3848]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "I": {
+      "HasilPrediksi": [
+        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      ],
+      "ConfidenceScore": []
+    },
+    "II": {
+      "HasilPrediksi": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+      ],
+      "ConfidenceScore": []
+    },
+    "III": {
+      "HasilPrediksi": [[1, 2, 3, 4, 5, 6, 7, 8, 9]],
+      "ConfidenceScore": []
+    }
+  }
+}

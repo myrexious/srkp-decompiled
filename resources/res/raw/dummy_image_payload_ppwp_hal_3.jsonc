@@ -1,0 +1,16 @@
+{
+    "SuaraPaslon": {
+        "PredComb": [
+            [4, 4, 4], // Suara Paslon 4
+            [5, 5, 5] // Suara Paslon 5
+        ]
+    },
+    "DataSuara": {
+        "PredComb": [
+            [1, 1, 1], // V.A Jumlah seluruh suara sah
+            [2, 2, 2], // V.B. Jumlah suara tidak sah
+            [3, 3, 3]  // V.C Jumlah seluruh suara sah dan suara tidak sah
+        ]
+    },
+    "error": ""
+}

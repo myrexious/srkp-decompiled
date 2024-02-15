@@ -1,0 +1,10 @@
+{
+    "SuaraPaslon": {
+        "PredComb": [
+            [1, 1, 1, 1, 1], // Suara Paslon 1
+            [2, 2, 2, 2, 2], // Suara Paslon 2
+            [3, 3, 3, 3, 3]  // Suara Paslon 3
+        ]
+    },
+    "error": ""
+}

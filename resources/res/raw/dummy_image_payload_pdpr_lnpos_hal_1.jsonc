@@ -1,0 +1,31 @@
+{
+  "I": {
+    "HasilPrediksi": [
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5], // I.A. Jumlah Pemilih DPT
+      [2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6], // I.B.1. Jumlah Pengguna DPT
+      [3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7], // I.B.2. Jumlah Pengguna DPTb
+      [4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8], // I.B.3. Jumlah Pengguna DPK
+      [5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9], // I.B.4. Jumlah Pengguna
+    ],
+    "ConfidenceScore": []
+  },
+  "II": {
+    "HasilPrediksi": [
+      [1, 2, 3, 4, 5], // II. 1. Jumlah surat suara diterima
+      [6, 7, 8, 9, 0], // II. 2. Jumlah surat suara digunakan
+      [5, 4, 3, 2, 1], // II. 3. Jumlah surat suara dikembalikan
+      [0, 9, 8, 7, 6], // II. 4. Jumlah surat suara tidak digunakan
+      [2, 3, 4, 5, 6], // II. 4.a. Surat suara kembali ke PPLN (return to sender)
+      [3, 4, 5, 6, 7], // II. 4.b. Surat suara tidak terpakai, termasuk sisa surat suara cadangan
+      [4, 5, 6, 7, 8]  // II. 4.c. Surat suara tidak dikembalikan oleh Pemilih
+    ],
+    "ConfidenceScore": []
+  },
+  "III": {
+    "HasilPrediksi": [
+      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 5] // III. Jumlah pemilih disabilitas
+    ],
+    "ConfidenceScore": []
+  },
+  "error": ""
+}

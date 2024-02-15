@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">sirekap-api-staging.informatika.site
+        </domain>
+        <trust-anchors>
+            <certificates src="@raw/informatika_site_ca"/>
+        </trust-anchors>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sirekap-api-dev.informatika.site
+        </domain>
+        <trust-anchors>
+            <certificates src="@raw/dev_informatika_site_ca"/>
+        </trust-anchors>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">aliyuncs.com
+        </domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">timestamp.digicert.com
+        </domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">cvs-bsre.bssn.go.id
+        </domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">digicert.com
+        </domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">sectigo.com
+        </domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">crl.rootca.id
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">kpu.go.id
+        </domain>
+        <trust-anchors>
+            <certificates src="@raw/sso_sirekap_ca"/>
+        </trust-anchors>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sirekap-api.kpu.go.id
+        </domain>
+        <trust-anchors>
+            <certificates src="@raw/sirekap_api_kpu_go_id"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph" app:startDestination="@+id/dashboardFragment">
+    <fragment android:label="@string/app_name_real" android:name="org.informatika.sirekap.ui.dashboard.DashboardFragment" android:id="@+id/dashboardFragment">
+        <action android:id="@+id/action_dashboardFragment_to_electionDetailFragment" app:destination="@+id/electionDetailFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_witnessFragment" app:destination="@+id/witnessFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_sendImageFragment" app:destination="@+id/sendImageFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_imageHistoryFragment" app:destination="@+id/imageHistoryFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_witnessAttendanceListFragment" app:destination="@+id/witnessAttendanceListFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_specialOccurrenceFragment" app:destination="@+id/specialOccurrenceFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_autoCaptureFragment" app:destination="@+id/autoCaptureFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_selectFormCImageFragment" app:destination="@+id/selectFormCImageFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_confirmSaveFormCImageFragment" app:destination="@+id/confirmSaveFormCImageFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_manageTimeFragment" app:destination="@+id/manageTimeFragment"/>
+        <action android:id="@+id/action_dashboardFragment_to_settingsFragment" app:destination="@+id/settingsFragment"/>
+    </fragment>
+    <fragment android:label="Scan Form-C" android:name="org.informatika.sirekap.ui.autocapture.AutoCaptureFragment" android:id="@+id/autoCaptureFragment">
+        <argument android:name="imageUri" app:argType="android.net.Uri"/>
+        <argument android:name="croppedImageUri" app:argType="android.net.Uri"/>
+        <argument android:name="correctedImageUri" app:argType="android.net.Uri"/>
+    </fragment>
+    <fragment android:label="@string/election_detail" android:name="org.informatika.sirekap.ui.electionDetail.ElectionDetailFragment" android:id="@+id/electionDetailFragment">
+        <action android:id="@+id/action_electionDetailFragment_to_verifyAdministrationFragment" app:destination="@+id/verifyAdministrationFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_verifyTabulationFragment" app:destination="@+id/verifyTabulationFragment"/>
+        <argument android:name="electionId" app:argType="string"/>
+        <action android:id="@+id/action_electionDetailFragment_to_sendImageFragment" app:destination="@+id/sendImageFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_verifyAdministrationHal2Fragment" app:destination="@+id/verifyAdministrationHal2Fragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_verifyTabulationPartaiFragment" app:destination="@+id/verifyTabulationPartaiFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_verifyAdministrationHal2PpwpFragment" app:destination="@+id/verifyAdministrationHal2PpwpFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_confirmSaveFormCImageFragment" app:destination="@+id/confirmSaveFormCImageFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_aprilTagConflictFragment" app:destination="@+id/aprilTagConflictFragment"/>
+        <action android:id="@+id/action_electionDetailFragment_to_autoCaptureFragment" app:destination="@+id/autoCaptureFragment"/>
+        <argument android:name="jenisPemilihan" app:argType="string"/>
+    </fragment>
+    <fragment android:label="@string/title_witness_fragment" android:name="org.informatika.sirekap.ui.witness.WitnessFragment" android:id="@+id/witnessFragment">
+        <action android:id="@+id/action_witnessFragment_to_witnessQrCodeFragment" app:destination="@+id/witnessQrCodeFragment"/>
+        <action android:id="@+id/action_witnessFragment_to_witnessRegisterFragment" app:destination="@+id/witnessRegisterFragment"/>
+        <argument android:name="kodeTps" app:argType="string"/>
+        <argument android:name="jenisPemilihan" app:argType="string"/>
+    </fragment>
+    <fragment android:label="@string/title_fragment_witness_register" android:name="org.informatika.sirekap.ui.witness.register.WitnessRegisterFragment" android:id="@+id/witnessRegisterFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+    </fragment>
+    <fragment android:label="@string/send_form_chasil" android:name="org.informatika.sirekap.ui.sendImage.SendImageFragment" android:id="@+id/sendImageFragment">
+        <argument android:name="electionPageId" app:argType="string"/>
+        <action android:id="@+id/action_sendImageFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="@string/preview_image" android:name="org.informatika.sirekap.ui.previewImage.PreviewImageFragment" android:id="@+id/previewImageFragment">
+        <argument android:name="imageFilePath" app:argType="string"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.wizard.VerifyWizardFragment" android:id="@+id/verifyWizardElectionPageFragment">
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+        <argument android:name="electionPemilihan" app:argType="string" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.administration.VerifyAdministrationFragment" android:id="@+id/verifyAdministrationFragment">
+        <action android:id="@+id/action_verifyAdministrationFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.tabulation.VerifyTabulationFragment" android:id="@+id/verifyTabulationFragment">
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+        <action android:id="@+id/action_verifyTabulationFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+        <argument android:name="electionPemilihan" app:argType="string"/>
+    </fragment>
+    <include app:graph="@navigation/login_nav_graph"/>
+    <action android:id="@+id/action_global_login_nav_graph" app:destination="@+id/login_nav_graph"/>
+    <fragment android:label="@string/image_history" android:name="org.informatika.sirekap.ui.imageHistory.ImageHistoryFragment" android:id="@+id/imageHistoryFragment"/>
+    <fragment android:label="@string/share_info_chasil" android:name="org.informatika.sirekap.ui.witness.qrCode.WitnessQrCodeFragment" android:id="@+id/witnessQrCodeFragment">
+        <argument android:name="witnessId" app:argType="string"/>
+        <argument android:name="kodeTps" app:argType="string"/>
+        <argument android:name="jenisPemilihan" app:argType="string"/>
+        <action android:id="@+id/action_witnessQrCodeFragment_to_witnessUrlListFragment" app:destination="@+id/witnessUrlListFragment"/>
+    </fragment>
+    <fragment android:label="@string/share_info_chasil_saksi" android:name="org.informatika.sirekap.ui.witness.qrCode.WitnessUrlListFragment" android:id="@+id/witnessUrlListFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <argument android:name="jenisPemilihan" app:argType="string"/>
+    </fragment>
+    <fragment android:label="Daftar Hadir" android:name="org.informatika.sirekap.ui.witness.attendanceList.WitnessAttendanceListFragment" android:id="@+id/witnessAttendanceListFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <action android:id="@+id/action_WitnessAttendanceListFragment_to_VerifyWitnessAttendanceListFragment" app:destination="@+id/verifyWitnessAttendanceListFragment"/>
+        <action android:id="@+id/action_witnessAttendanceListFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="Periksa Daftar Hadir" android:name="org.informatika.sirekap.ui.witness.attendanceList.verify.VerifyWitnessAttendanceListFragment" android:id="@+id/verifyWitnessAttendanceListFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <action android:id="@+id/action_verifyWitnessAttendanceListFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.administrationHal2.VerifyAdministrationHal2Fragment" android:id="@+id/verifyAdministrationHal2Fragment">
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+        <action android:id="@+id/action_verifyAdministrationHal2Fragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.tabulationPartai.VerifyTabulationPartaiFragment" android:id="@+id/verifyTabulationPartaiFragment">
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+        <action android:id="@+id/action_verifyTabulationPartaiFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+        <argument android:name="electionPemilihan" app:argType="string"/>
+    </fragment>
+    <fragment android:label="Tanda Terima Salinan Saksi &amp; Kejadian Khusus" android:name="org.informatika.sirekap.ui.specialOccurrence.SpecialOccurrenceFragment" android:id="@+id/specialOccurrenceFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <action android:id="@+id/action_SpecialOccurrenceFragment_to_VerifyOccurrenceFragment" app:destination="@+id/verifySpecialOccurrenceFragment"/>
+        <action android:id="@+id/action_specialOccurrenceFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="Periksa Tanda Terima Salinan Saksi &amp; Kejadian Khusus" android:name="org.informatika.sirekap.ui.specialOccurrence.verify.VerifySpecialOccurrenceFragment" android:id="@+id/verifySpecialOccurrenceFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <action android:id="@+id/action_verifySpecialOccurrenceFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="@string/check_form_chasil" android:name="org.informatika.sirekap.ui.verify.administrationHal2Ppwp.VerifyAdministrationHal2PpwpFragment" android:id="@+id/verifyAdministrationHal2PpwpFragment">
+        <argument android:name="idImage" app:argType="string"/>
+        <argument android:name="electionPageKind" app:argType="integer"/>
+        <argument android:name="electionPageId" app:argType="string"/>
+        <action android:id="@+id/action_verifyAdministrationHal2PpwpFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="Pilih Pemilihan &amp; Halaman" android:name="org.informatika.sirekap.ui.selectFormCImage.SelectFormCImageFragment" android:id="@+id/selectFormCImageFragment">
+        <argument android:name="imagePath" app:argType="string"/>
+        <action android:id="@+id/action_selectFormCImageFragment_to_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    </fragment>
+    <fragment android:label="Konfirmasi Foto Form-C" android:name="org.informatika.sirekap.ui.confirmSaveFormCImage.ConfirmSaveFormCImageFragment" android:id="@+id/confirmSaveFormCImageFragment">
+        <argument android:name="imagePath" app:argType="string"/>
+        <argument android:name="electionPageId"/>
+    </fragment>
+    <action android:id="@+id/action_global_previewImageFragment" app:destination="@+id/previewImageFragment"/>
+    <fragment android:label="Pilih Halaman Form-C" android:name="org.informatika.sirekap.ui.aprilTagConflict.AprilTagConflictFragment" android:id="@+id/aprilTagConflictFragment">
+        <argument android:name="imagePath" app:argType="string"/>
+        <argument android:name="electionPageIdManual" app:argType="string"/>
+        <argument android:name="electionPageIdAprilTag" app:argType="string"/>
+    </fragment>
+    <fragment android:label="Pencatatan Waktu" android:name="org.informatika.sirekap.ui.tpsTime.TpsTimeFragment" android:id="@+id/manageTimeFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+        <argument android:name="jenisWaktu" app:argType="integer"/>
+        <argument android:name="jenisPemilihan" app:argType="string"/>
+        <argument android:name="isElectionZipped" app:argType="boolean"/>
+    </fragment>
+    <fragment android:label="@string/fragment_settings_title" android:name="org.informatika.sirekap.ui.settings.SettingsFragment" android:id="@+id/settingsFragment">
+        <argument android:name="kodeTps" app:argType="string"/>
+    </fragment>
+</navigation>

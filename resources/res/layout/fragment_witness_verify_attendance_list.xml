@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_witness_verify_attendance_list_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <include android:id="@+id/view_verify_attendees_start" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/view_witness_verify_attendance_list_start"/>
+    <include android:id="@+id/view_verify_attendees_ongoing" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/view_witness_verify_attendance_list_ongoing"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+{
+  "name": "y_ocr-lima-kotak",
+  "checkerboard_size": 83,
+  "width": 2986,
+  "height": 4783,
+  "regions_of_interest": [
+    {
+      "type": "ocr",
+      "width": 86,
+      "height": 86,
+      "fields": [
+        {
+          "name": "jumlah_suara_sah",
+          "coordinates": [
+            [2409, 653],
+            [2501, 653],
+            [2592, 653],
+            [2684, 653],
+            [2776, 653]
+          ]
+        },
+        {
+          "name": "jumlah_suara_tidak_sah",
+          "coordinates": [
+            [2409, 1074],
+            [2501, 1074],
+            [2592, 1074],
+            [2684, 1074],
+            [2776, 1074]
+          ]
+        },
+        {
+          "name": "jumlah_seluruh_suara",
+          "coordinates": [
+            [2409, 1515],
+            [2501, 1515],
+            [2592, 1515],
+            [2684, 1515],
+            [2776, 1515]
+          ]
+        }
+      ]
+    }
+  ],
+  "output_format": {
+    "DataSuara": {
+      "PredComb": [
+        [1, 2, 3, 4, 5],
+        [1, 2, 3, 4, 5],
+        [1, 2, 3, 4, 5]
+      ]
+    }
+  }
+}
